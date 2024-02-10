@@ -4,24 +4,34 @@ Use Pattern Matching and let expression (as needed) to solve the following
 problems. Note that you can still use the if-then-else expressions.
 In this assignment, the matrices are represented by two dimensional lists.
 For example,
+
 val x = [[1,2,3],[4,5,6],[7,8,9]];
 represents the matrix.
 1 2 3
+
 4 5 6
+
 7 8 9
 val y = [[1,1,1],[2,2,2],[3,3,3]];
 represents the matrix.
 1 1 1
+
 2 2 2
+
 3 3 3
+
 Note that you may reuse the functions you defined in homework 3 by includ-
 ing them in this submission.
 1. Write a function matrixAdd : int list list * int list list -> int list list
 that adds two matrices of the same dimension. For example matrixAdd (x, y)
 should return the matrix below:
+
 2 3 4
+
 6 7 8
+
 10 11 12
+
 2. Write a function transpose: ’a list list -> ’a list list that trans-
 poses a matrix. For example transpose x should return the matrix below:
 1
